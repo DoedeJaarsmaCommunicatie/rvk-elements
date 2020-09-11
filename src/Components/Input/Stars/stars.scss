@@ -1,0 +1,8 @@
+.rvk--reviews--input--score__star {
+  color: var(--rvk-star-input-color, #f93);
+  cursor: pointer;
+
+  &:hover ~ &, &.active ~ & {
+    color: var(--rvk-star-input-color-disabled, black);
+  }
+}
