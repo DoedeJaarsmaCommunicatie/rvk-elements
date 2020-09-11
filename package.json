@@ -34,5 +34,9 @@
   "scripts": {
     "start": "start-storybook",
     "build": "webpack --mode production"
-  }
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ]
 }
